@@ -1,0 +1,10 @@
+apply plugin: 'java'
+
+dependencies {
+    compile project(':api')
+    compile 'com.github.briandilley.jsonrpc4j:jsonrpc4j:1.1'
+}
+
+apply plugin:'application'
+mainClassName = "com.gravityrd.bernat.TestClient"
+

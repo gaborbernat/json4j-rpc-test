@@ -1,0 +1,7 @@
+include 'api', 'server', 'client'
+
+rootProject.name='rpc'
+
+rootProject.children.each {
+	it.buildFileName = it.name + '.gradle'
+}
